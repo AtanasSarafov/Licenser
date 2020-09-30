@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Licenser.LicenseDistribution", "Licenser.LicenseDistribution\Licenser.LicenseDistribution.csproj", "{BAA323F3-8A1E-4584-AA79-3C67E97B766F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Licenser.Encryption", "Licenser.Encryption\Licenser.Encryption.csproj", "{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAA323F3-8A1E-4584-AA79-3C67E97B766F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA323F3-8A1E-4584-AA79-3C67E97B766F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA323F3-8A1E-4584-AA79-3C67E97B766F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA323F3-8A1E-4584-AA79-3C67E97B766F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B077C28-C947-47F7-8A3A-412DC3F8D584}
+	EndGlobalSection
+EndGlobal
