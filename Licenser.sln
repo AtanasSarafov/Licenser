@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Licenser.LicenseDistribution", "Licenser.LicenseDistribution\Licenser.LicenseDistribution.csproj", "{BAA323F3-8A1E-4584-AA79-3C67E97B766F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Licenser.LicenseDistribution", "Licenser.LicenseDistribution\Licenser.LicenseDistribution.csproj", "{BAA323F3-8A1E-4584-AA79-3C67E97B766F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Licenser.Encryption", "Licenser.Encryption\Licenser.Encryption.csproj", "{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Licenser.Encryption", "Licenser.Encryption\Licenser.Encryption.csproj", "{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Licenser.WebClient", "Licenser.WebClient\Licenser.WebClient.csproj", "{1D6D4D9C-5A59-4E6D-B6B0-CCD1BC84B076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA211FEA-8514-4B0E-8DF7-2DC134FDF8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6D4D9C-5A59-4E6D-B6B0-CCD1BC84B076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6D4D9C-5A59-4E6D-B6B0-CCD1BC84B076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6D4D9C-5A59-4E6D-B6B0-CCD1BC84B076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6D4D9C-5A59-4E6D-B6B0-CCD1BC84B076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

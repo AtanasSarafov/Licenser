@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Licenser.LicenseDistribution.Entities
 {
-    public class License 
+    public class License
     {
         [Key]
         public long Id { get; set; }
@@ -29,7 +29,5 @@ namespace Licenser.LicenseDistribution.Entities
         public string LicenseDocumentId { get; set; }
 
         public string ValidateDate { get; set; }
-
-        public long GroupId { get; set; }
     }
 }

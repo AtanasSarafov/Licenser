@@ -52,7 +52,6 @@ namespace Licenser.LicenseDistribution.Services
                 {nameof(license.CreatedBy), license.CreatedBy },
                 {nameof(license.DateFrom), license.DateFrom.ToString() },
                 {nameof(license.HardwareId), HardwareInfoHelper.EncryptHardwareId(license.HardwareId)},
-                {nameof(license.GroupId), license.GroupId.ToString() },
                 {nameof(license.Active), license.Active.ToString() },
                 {LicenseConstants.LicenseDbIdAttributeName, license.Id.ToString() }
             };
